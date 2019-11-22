@@ -168,6 +168,9 @@ button {
         background-color: hsl(193, 100%, 96%);
         margin-bottom: 80px;
     }
+    .header-logo {
+        width: 80%;
+    }
     .header-content .description {
         margin-bottom: 50px;
     }
