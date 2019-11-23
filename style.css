@@ -3,8 +3,8 @@ body {
     font-size: 18px;
     
     margin: 0px;
-    width: 100%;
-    max-width: 1440px;
+    /* width: 100%;
+    max-width: 1440px; */
 }
 .container {
     display: flex;
@@ -248,13 +248,19 @@ button {
     }
 }
 
-/* Mobile
-@media (min-width: 0px) and (max-width: 375px){
-    .container {
-        flex-wrap: wrap;
-        padding: 20px ;
-        justify-content: center;
-        align-content: stretch;
-        text-align: center;
+/* Mobile */
+@media (max-width: 375px){
+    .nav-btn {
+        padding: 5px 8px;
     }
-} */
+    .header-logo {
+        width: 40%;
+    }
+    .get {
+        width: 80%;
+    }    
+    .col:first-child {
+        width: 280px;
+    } 
+
+}
